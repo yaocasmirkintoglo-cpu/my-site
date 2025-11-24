@@ -212,3 +212,19 @@ footer {
     height: 200px;
     width: 335px;
 }
+.bt {
+    background-color: #FF4D00;
+    height: 50px;
+    width: 150px;
+}    
+.bt2 {
+    background-color: gray;
+    height: 50px;
+    width: 150px;
+}
+.bt2:hover {
+    background-color: black;
+}
+.bt:hover {
+    background-color: red;
+}
