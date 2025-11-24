@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #00022E;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #00022E;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  background: #FF4D00;
+}
+nav ul li {
+  margin: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #00022E;
+}
+
+main {
+  padding: 20px;
+  animation: slideUp 1s ease;
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+section {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #FF4D00;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  header, main, footer {
+    padding: 10px;
+  }
+}
+.image1 {
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.image2 {
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.image3 {
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.image4 {
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.image5 {
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.image6 {
+    width: 1200px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.image-animée {
+  transition: transform 0.3s ease;
+}
+
+.image-animée:hover {
+  transform: scale(1.1);
+}
+.image-fade {
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* À propos */
+.apropos p {
+  margin-bottom: 15px;
+}
+
+/* Compétences */
+.competences ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+.projets .projet {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #000080;
+  border-radius: 5px;
+}
+.contact-form form {
+  background-color: #000080;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  background-color: #000080;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #00022F;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #FF4D00;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #00022E;
+}
+
+
