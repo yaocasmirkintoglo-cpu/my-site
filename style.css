@@ -51,15 +51,17 @@ nav ul li a:hover {
 }
 
 main {
+    display: flex;
   padding: 20px;
   animation: slideUp 1s ease;
+  gap: 70px;
 }
 @keyframes slideUp {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
 section {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 footer {
@@ -84,9 +86,10 @@ footer {
   }
 }
 .image1 {
-    width: 1200px;
+    width: 600px;
     height: 400px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 .image2 {
     width: 1200px;
@@ -103,15 +106,14 @@ footer {
     height: 400px;
     margin-bottom: 20px;
 }
-.image5 {
-    width: 1200px;
+.image6 {
+    width: 600px;
     height: 400px;
     margin-bottom: 20px;
 }
-.image6 {
+.imageA {
     width: 1200px;
-    height: 400px;
-    margin-bottom: 20px;
+    height: 300px;
 }
 .image-animée {
   transition: transform 0.3s ease;
@@ -129,6 +131,9 @@ footer {
   to {
     opacity: 1;
   }
+}
+.nom {
+    color: #000080;
 }
 
 
@@ -152,6 +157,7 @@ footer {
   background-color: #000080;
   padding: 20px;
   border-radius: 6px;
+  width: 600px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -182,5 +188,27 @@ footer {
 .contact-form button:hover {
   background-color: #00022E;
 }
-
-
+.your {
+    height: 50px;
+}
+.my {
+    height: 120px;
+}
+.space {
+    height: 60px;
+}
+.spacer {
+    height: 30px;
+}
+.mc {
+    list-style-position: inside;
+    padding: 4px;
+    align-items: center;
+    height: 600px;
+    width: 340px;
+    background-color: #000080;
+}
+.im {
+    height: 200px;
+    width: 335px;
+}

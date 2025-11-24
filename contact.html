@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -23,17 +27,29 @@
     </nav>
 
     <main>
-      <img src="image5.jpg" alt="dev" class="image5 image-animee image-fade" />
+      <section>
+        <h1>Contactez-nous</h1>
+        <p>
+          Vous avez une idée ou un projet sur lequel vous-voulez discuter avec
+          nous ? N'hésitez pas à nous écrire
+        </p>
+        <div class="space"></div>
+        <i class="fas fa-phone"></i> +22870545334
+        <div class="spacer"></div>
+        <i class="fas fa-envelope"></i> yaocasmirkintoglo@gmail.com
+        <div class="spacer"></div>
+        <i class="fas fa-map-marker-alt"></i> Lomé-Togo
+      </section>
       <section class="contact-form">
         <form action="https://formspree.io/f/xqajjgwy" method="POST">
           <label>
             Votre email
-            <input type="email" name="email" />
+            <input type="email" name="email" class="your" />
           </label>
 
           <label>
             Votre message
-            <textarea name="message"></textarea>
+            <textarea name="message" class="my"></textarea>
           </label>
 
           <button type="submit">Envoyer</button>
