@@ -70,6 +70,7 @@ footer {
   text-align: center;
   padding: 15px 0;
   font-size: 14px;
+  gap: 50px;
 }
 @media (max-width: 600px) {
   nav ul {
@@ -86,15 +87,17 @@ footer {
   }
 }
 .image1 {
-    width: 600px;
-    height: 400px;
+    width: 650px;
+    height: 5à0px;
     margin-bottom: 20px;
     border-radius: 20px;
+    background-color:  #00022E;
 }
 .image2 {
     width: 1200px;
     height: 400px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 .image3 {
     width: 1200px;
@@ -216,15 +219,27 @@ footer {
     background-color: #FF4D00;
     height: 50px;
     width: 150px;
+    border-radius: 10px;
 }    
 .bt2 {
     background-color: gray;
     height: 50px;
     width: 150px;
+    border-radius: 10px;
 }
 .bt2:hover {
     background-color: black;
 }
 .bt:hover {
     background-color: red;
+}
+.social-links a {
+  margin: 0 10px;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.social-links a:hover {
+  color: #00bcd4;
 }
